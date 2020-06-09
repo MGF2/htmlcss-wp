@@ -16,7 +16,7 @@
 }
 
 .row {
-  margin: 15px 0;
+  margin: 50px 0;
 }
 
 header {
@@ -93,4 +93,27 @@ h1 {
   top:80%;
   left:50%;
   width: 500px;
+}
+/* .menu {
+  position: static;
+  margin-bottom: 10px;
+} */
+nav {
+  /* background-color: grey; */
+  text-align: center;
+  height: 40px;
+}
+
+ul {
+  background-color: grey;
+}
+
+ul li {
+  display: inline-block;
+  color: white;
+  padding: 0 10px;
+  line-height: 40px;
+  text-transform: uppercase;
+  font-size: 13px;
+  /* font-family: Raavi, Raavi, sans-serif; */
 }
