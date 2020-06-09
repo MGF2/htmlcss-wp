@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.container {
+  padding: 0 150px;
+  background-image: url(https://images.pexels.com/photos/2310641/pexels-photo-2310641.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+}
+
+.row {
+  margin: 15px 0;
+}
+
+header {
+  background-color: yellow;
+  height: 200px;
+  /* margin-bottom: 15px; */
+}
+
+aside {
+  height: 200px;
+  /* background-color: pink; */
+  width: 25%;
+  float:left;
+  /* padding: 20px; */
+}
+
+main {
+  height: 700px;
+  /* background-color: violet; */
+  width: 50%;
+  float: left;
+  padding: 0 10px;
+}
+
+footer {
+  background-color: lightblue;
+  height: 150px;
+}
+
+aside .sfondo {
+  background-color: pink;
+  height: 200px;
+  margin-bottom: 10px;
+}
+
+main .sfondo {
+  background-color: violet;
+  height: 500px;
+}
