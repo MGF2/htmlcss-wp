@@ -36,7 +36,7 @@ header .immagine {
 aside {
   height: 200px;
   /* background-color: pink; */
-  width: 25%;
+  width: 20%;
   float:left;
   /* padding: 20px; */
 }
@@ -44,9 +44,9 @@ aside {
 main {
   height: 700px;
   /* background-color: violet; */
-  width: 50%;
+  width: 60%;
   float: left;
-  padding: 0 10px;
+  padding: 0 30px;
 }
 
 footer {
@@ -54,15 +54,35 @@ footer {
   height: 150px;
 }
 
+
 aside .sfondo {
-  background-color: pink;
-  height: 200px;
+  background-color: white;
+  height: 425px;
   margin-bottom: 10px;
+  padding: 10px;
 }
 
 main .sfondo {
-  background-color: violet;
-  height: 500px;
+  background-color: white;
+  height: 350px;
+  padding: 10px;
+}
+
+h2 {
+  text-transform: uppercase;
+  /* padding: 20px 0; */
+  padding-bottom: 35px;
+  padding-top: 10px;
+  font-family: verdana, sans-serif;
+  color: dimgrey;
+}
+
+ h3 {
+   font-family: verdana, sans-serif;
+   color: dimgrey;
+ }
+p {
+  font-family: verdana, sans-serif;
 }
 
 .overlay {
@@ -116,4 +136,20 @@ ul li {
   text-transform: uppercase;
   font-size: 13px;
   /* font-family: Raavi, Raavi, sans-serif; */
+}
+
+a {
+  display: block;
+  color: green;
+  padding: 5px 0;
+  text-decoration: none;
+}
+
+i {
+  color: orange;
+  display: inline-block;
+  float: left;
+  font-size: 25px;
+  padding-right: 10px;
+  padding-bottom: 10px;
 }
