@@ -52,8 +52,9 @@ main {
 }
 
 footer {
-  background-color: lightblue;
-  height: 150px;
+  /* background-color: lightblue; */
+  /* height: 150px; */
+  text-align: center;
 }
 
 
@@ -161,11 +162,25 @@ a {
   text-decoration: none;
 }
 
-i {
+i:only-of-type {
   color: orange;
   display: inline-block;
   float: left;
   font-size: 25px;
   padding-right: 10px;
   padding-bottom: 10px;
+}
+
+span i {
+  color: lightgrey;
+  font-size: 30px;
+  padding: 30px 120px;
+}
+
+.bottom {
+  background-color: white;
+}
+
+.textbot {
+  color: lightgrey;
 }
